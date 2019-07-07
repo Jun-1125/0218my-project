@@ -37,11 +37,11 @@ new Vue({
    {{}}： 插值   通过写标签的时候通过属性传过去
 
    注册组件
-    局部注册  computed:{}
+    局部注册  component:{}
     全局注册  在入口文件中
 */
 /* 
- 使用git进行管理
+使用git进行管理
  git init
  git add .
  git commit -m "init"
@@ -51,4 +51,5 @@ new Vue({
   再建立一个分支   git checkout -b dev   -b是根据当前分支建立dev分支，然后再建立dev
   git push origin dev 远程也建立一个新的分支dev，然后同步本地的dev分支
   如果想要克隆远程的仓库的话，是只有一个master分支，需要本地再建立一个dev分支才可以pull origin dev 
- */
+ 
+*/

@@ -42,5 +42,13 @@ new Vue({
 */
 /* 
  使用git进行管理
- 
-*/
+ git init
+ git add .
+ git commit -m "init"
+ git status 状态
+ 连接远程仓库git remote add origin https://github.com/Jun-1125/0218my-project.git
+  git push origin master 远程没有直接建立一个master分支
+  再建立一个分支   git checkout -b dev   -b是根据当前分支建立dev分支，然后再建立dev
+  git push origin dev 远程也建立一个新的分支dev，然后同步本地的dev分支
+  如果想要克隆远程的仓库的话，是只有一个master分支，需要本地再建立一个dev分支才可以pull origin dev 
+ */

@@ -1,9 +1,7 @@
-<!--首页组件-->
 <template>
-  <section class="miste">
+  <section class="msite">
     <!--首页头部-->
     <Header title="xxx">
-      <!-- 显示标签体 -->
       <span class="header_search" slot="left">
         <i class="iconfont icon-sousuo"></i>
       </span>
@@ -313,6 +311,7 @@
 
 <script type="text/ecmascript-6">
   export default {
+    
   }
 </script>
 

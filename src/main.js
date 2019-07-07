@@ -40,17 +40,3 @@ new Vue({
     局部注册  component:{}
     全局注册  在入口文件中
 */
-/* 
- 使用git进行管理
- git init 
- git add .
- git commit -m "init"
- git status
- 建立远程的仓库   
- 远程仓库是没有master分支的，直接建立一个master分支
- 推送到远程git push origin master
- 本地建立一个分支 git checkout -b dev  -b在当前分支的基础上创建一个dev分支，同时进入dev分支
- 远程建立一个dev分支 
- 
-
-*/

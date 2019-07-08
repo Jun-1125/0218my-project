@@ -4,10 +4,12 @@ import Vue from 'vue'
 import App from './App'
 // 引入路由
 import router from './router'
-
+import store from './vuex/store'
 import Header from './components/Header/Header.vue'
+import Star from './components/Star/Star.vue'
 //定义全局组件(所有组件都可以看到) 组件引入不能使用先注册，就是指定标签名
 Vue.component('Header',Header)
+Vue.component('Star',Star)
 
 /* eslint-disable no-new */
 new Vue({
@@ -28,7 +30,7 @@ new Vue({
   // render:createElement => createElement(App)  //createElement创建元素，模板的标签名App
   render:h => h(App),
   router,//配置路由
-  Header
+  store//配置vuex
 })
 /* 
   组件间通信的方式
@@ -39,4 +41,9 @@ new Vue({
    注册组件
     局部注册  component:{}
     全局注册  在入口文件中
+*/
+/* 
+v-for="shop in shops" 
+ v-for=''指令
+ 属性是表达式shop in shops
 */
